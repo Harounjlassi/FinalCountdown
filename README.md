@@ -1,6 +1,6 @@
-# ⏳ Countdown Timer
+# ⏳ Final Countdown  Timer
 
-A simple **Countdown Timer** built with React.  
+A simple ** Countdown  Timer** built with React.  
 This project was created by **Haroun Jlassi** as part of my learning journey in React and JavaScript.
 
 ---
@@ -20,7 +20,8 @@ This project was created by **Haroun Jlassi** as part of my learning journey in 
 ---
 
 ## 📸 Screenshot
-(Add a screenshot of your app here, e.g. `![screenshot](public/screenshot.png)`)
+![Final Countdown Screenshot](public/screenshot.png)
+
 
 ---
 
