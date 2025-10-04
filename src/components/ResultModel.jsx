@@ -6,9 +6,8 @@ const ResultModel = forwardRef(function ResultModel({ targetTime, timeRemaining,
     const userLost = timeRemaining <= 0;
 
     const formatedRemainingTime = (timeRemaining / 1000).toFixed(2);
-    console.log(formatedRemainingTime);
 
-    const score = Math.round((1 - (timeRemaining ??0) / (targetTime * 1000)) * 100);
+    const score = Math.round((1 - timeRemaining  / (targetTime * 1000)) * 100);
     useImperativeHandle(ref, () => {
         return {
             open() {

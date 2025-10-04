@@ -6,7 +6,6 @@ import { createPortal } from 'react-dom';
 export default function TimerChallenge({ title, targetTime }) {
     const [timeRemaining, setTimeRemaining] = useState(targetTime * 1000);
     const timeIsActive = timeRemaining > 0 && timeRemaining < targetTime * 1000;
-    console.log(timeRemaining);
     
     const timer = useRef();
     const dialog = useRef();
